@@ -89,7 +89,7 @@ console.log("star patterns");
 
 
 
-let i,j,k,l,m;
+// let i,j,k,l,m;
 
 
 
@@ -109,3 +109,18 @@ let i,j,k,l,m;
 //     process.stdout.write("\n");
 
 // }
+
+
+
+let row, col;
+
+
+for (row = 1; row <= 5; row++){
+
+
+    for(col=1;col<=row;col++){
+         process.stdout.write("*")
+    }
+
+    console.log("\n")
+}
