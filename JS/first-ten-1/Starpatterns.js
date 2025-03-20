@@ -45,25 +45,67 @@ console.log("star patterns");
 //     console.log("\n")
 // }
 
-let i,j,k,l;
+// let i,j,k,l=1;
 
 
 
 
 
-for (i=1;i<=5;i++){
+// for(i=1;i<=5;i++){
 
-    for (j=1;j<=5-i;j++){
-        process.stdout.write(" ");
-    }
 
-    for(k=1;k<=i;k++){
-        process.stdout.write("*");
+//     for(j=1;j<=5-i;j++){
+//         process.stdout.write(" ")
+//     }
 
-    }
+//     for (k=1;k<=l;k++){
+//         process.stdout.write("*");
+//     }
 
-    for(l=2;l<=i;l++){
-        process.stdout.write("*");
-    }
-    console.log("\n");
-}
+
+//     console.log("*")
+
+//     l = l+2;
+// }
+
+
+// for (i=1;i<=5;i++){
+
+//     for (j=1;j<=5-i;j++){
+//         process.stdout.write(" ");
+//     }
+
+//     for(k=1;k<=i;k++){
+//         process.stdout.write("*");
+
+//     }
+
+//     for(l=2;l<=i;l++){
+//         process.stdout.write("*");
+//     }
+//     console.log("\n");
+// }
+
+
+
+
+let i,j,k,l,m;
+
+
+
+
+// for(i=5;i>=1;i--){
+
+
+
+//     for(j=1;j<=i;j++){
+//         process.stdout.write("*");
+//     }
+
+
+    
+
+
+//     process.stdout.write("\n");
+
+// }
