@@ -112,15 +112,28 @@ console.log("star patterns");
 
 
 
-let row, col;
+let row, col,n=5;
 
 
-for (row = 1; row <= 5; row++){
+for (row = 1; row <= n*2; row++){
+
+    let totalfinalans = row > n ? 2 * n - row : row;
 
 
-    for(col=1;col<=row;col++){
+    let totalspaces = n-totalfinalans;
+
+
+    for (let space = 1; space<=totalspaces;space++){
+
+        process.stdout.write("0");
+    }
+
+    for(col=1;col<=totalfinalans;col++){
          process.stdout.write("*")
     }
 
     console.log("\n")
 }
+
+
+// fav series
