@@ -1,22 +1,25 @@
-import java.util.Scanner;
-
 public class test{
-
-
-    //  static, instance, local variables
-    // local always under the funtion, instance in the class out the mthod
-    //  static also out and declear as static we can access instnce wit object
-
     public static void main(String[] args){
 
-        System.out.println("hello world");
+        Allspecs A1 = new Allspecs();
+        A1.name = "alx";
+
+        A1.work();
+
+    }
 
 
-        Scanner scanner = new Scanner(System.in);
 
-        int a = scanner.nextInt();
 
-        System.out.println(a+"success");
+   
+}
+class Allspecs{
+
+    String name;
+    int age;
+
+    void work(){
+        System.out.println(name+"How to do");
 
     }
 }
